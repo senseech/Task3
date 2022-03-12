@@ -1,4 +1,5 @@
 import com.google.gson.Gson;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
@@ -31,10 +32,6 @@ public class Main {
 
         GsonParseValues parseValues = new GsonParseValues();
         RootValues rootValues = parseValues.parse(in.next());
-
-//        System.out.println("Root Tests " + rootTests.toString());
-//        System.out.println("Root Values " + rootValues.toString());
-//        System.out.println("Root Tests " + rootTests.toString());
 
         try {
             Writer writer = new FileWriter("report.json");

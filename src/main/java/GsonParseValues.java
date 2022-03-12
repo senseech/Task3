@@ -8,11 +8,10 @@ public class GsonParseValues {
         Gson gson = new Gson();
 
         try (FileReader reader = new FileReader(string)) {
-            RootValues root = gson.fromJson(reader, RootValues.class);
-            return root;
+            return gson.fromJson(reader, RootValues.class);
 
         } catch (Exception e) {
-            System.out.println("pars err" + e.toString());
+            System.out.println("pars err" + e);
         }
 
         return null;
