@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Task3:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Task3_jar</output-path>
+    <root id="archive" name="Task3.jar">
+      <element id="module-output" name="Task3" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/bestvike/linq/2.0.0/linq-2.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

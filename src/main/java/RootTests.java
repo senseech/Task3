@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class RootTests {
-    //@SerializedName("tests")
+
     public ArrayList<Test> tests;
 
     @Override
