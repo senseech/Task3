@@ -2,6 +2,6 @@ import java.util.ArrayList;
 
 public class RootValues {
 
-    ArrayList<Values> values;
+    public ArrayList<Values> values;
 
 }
